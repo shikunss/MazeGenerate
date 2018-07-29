@@ -63,7 +63,7 @@ Maze maze = MazeFactory.Create(command); String mazeText = maze.Render();
 2、可修改程序，输入流可以从控制台或者文件中读取;
 3、修改程序中的command的值;
 4、运行 MainGenerate.class ;
-5、可自行修改程序，加测试用例等;
+5、可自行修改程序，重构代码，调整Factory、Maze，加测试用例等;
 
 测试用例：
 1、正确输入;
