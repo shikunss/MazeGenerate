@@ -58,11 +58,19 @@ Maze maze = MazeFactory.Create(command); String mazeText = maze.Render();
 当多个问题同时出现时，报告其中一个错误即可。
 
 
+如何使用：
+1、导入工程;
+2、可修改程序，输入流可以从控制台或者文件中读取;
+3、修改程序中的command的值;
+4、运行 MainGenerate.class ;
+5、可自行修改程序，加测试用例等;
+
 测试用例：
 1、正确输入;
 input:
 3 3
 0,1 0,2;0,0 1,0;0,1 1,1;0,2 1,2;1,0 1,1;1,1 1,2;1,1 2,1;1,2 2,2;2,0 2,1
+
 预计output:
 [W]	[W]	[W]	[W]	[W]	[W]	[W]
 [W]	[R]	[W]	[R]	[R]	[R]	[W]
